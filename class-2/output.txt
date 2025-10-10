@@ -1,6 +1,1 @@
-Enter numbers (press Ctrl+Z or Ctrl+D to stop):
-43 is an odd number
-23 is an odd number
-74 is an even number
-10 is an even number
-12 is an even number
+0 is a negative
