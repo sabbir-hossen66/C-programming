@@ -1,11 +1,13 @@
 #include <stdio.h>
 int main()
 {
-    int a=2;
+    float a=20;
     int b=3;
     int sum=a+b;
     printf("sum=%d\n",sum);
     int sub=b-a;
-    printf("sub=%d",sub);
+    printf("sub = %d\n",sub);
+    float div=a/b;
+    printf("division = %.1f",div);
     return 0;
 }
