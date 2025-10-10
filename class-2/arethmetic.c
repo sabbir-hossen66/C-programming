@@ -1,6 +1,11 @@
 #include <stdio.h>
 int main()
 {
-    printf("bangladesh");
+    int a=2;
+    int b=3;
+    int sum=a+b;
+    printf("sum=%d\n",sum);
+    int sub=b-a;
+    printf("sub=%d",sub);
     return 0;
 }
