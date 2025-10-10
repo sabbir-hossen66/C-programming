@@ -1,3 +1,1 @@
-sum=23
-sub = -17
-division = 6.7
+1
