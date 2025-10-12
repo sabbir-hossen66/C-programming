@@ -7,7 +7,8 @@ int main(){
         printf("no one love tk");
     }
     else{
-        printf("yes yes");
+        printf("yes yes\n");
+        printf("nono");
     }
     return 0;
 }
