@@ -1,12 +1,19 @@
 #include<stdio.h>
 int main (){
-  int n;
-  scanf("%d",&n);
-  for (int i = 0; i <= 20; i++)
+  int t;
+  scanf("%d",&t);
+  for (int i = 1; i <= t;  i++)
   {
-    if(i<=n){
-      printf("%d\n",i);
-    }
+     int n;
+     scanf("%d",&n);
+     do
+     {
+      int digit=n%10;
+      printf("%d ",digit);
+      n/=10;
+     }while (n!=0);
+     printf("\n");
+     
   }
   
     return 0;
