@@ -1,12 +1,28 @@
-#include<stdio.h>
-int main(){
-    long long int n;
-    scanf("%lld", &n);
-    long long int count = 0;
-    while(n > 0){
-        n = n / 10;
-        count++;
+#include <stdio.h>
+#include <string.h>
+
+int main() {
+    int n;
+    scanf("%d", &n);      
+    char s[105];
+    scanf("%s", s);      
+    
+    int count8 = 0;       
+    
+   
+    for (int i = 0; i < n; i++) {
+        if (s[i] == '8') {
+            count8++;
+        }
     }
-    printf("%lld\n", count);
+
+  
+    int possible = n / 11;  
+    
+   
+    int result = count8 < possible ? count8 : possible;
+
+    printf("%d\n", result);
+
     return 0;
 }
