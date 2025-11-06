@@ -1,5 +1,14 @@
 #include<stdio.h>
 int main(){
-   printf('hello')
+    int a,b,temp;
+    a=10;
+    b=20;
+    temp=a;
+    
+    a=b;
+    b=temp;
+   
+   
+   printf("a = %d\nb = %d",a,b);
     return 0;
-}
+} 
