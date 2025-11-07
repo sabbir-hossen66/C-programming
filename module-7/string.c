@@ -1,8 +1,9 @@
 #include<stdio.h>
 int main(){
-    char a[10];
-    scanf("%s",&a);
-    printf("%s\n",a);
-    printf("%d\n",a[5]);
+int s[5];
+scanf("%s",&s);
+printf("%s\n",s);
+printf("%d",s[13]);
+   
     return 0;
 }
