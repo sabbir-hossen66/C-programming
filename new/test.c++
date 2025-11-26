@@ -6,5 +6,7 @@ int main() {
     printf("Hello, World!3\n");
     printf("Hello, World!\n");
     printf("Hello, Worlde!\n");
+    printf("Hello, Worlde!\n");
+    printf("sabash bangladesh!\n");
     return 0;
 }
