@@ -1,12 +1,10 @@
 #include<stdio.h>
 int main() {
-    printf("Hello, World!\n");
-    printf("Hello, Worl3d!\n");
-    printf("Hello, World!\n");
-    printf("Hello, World!3\n");
-    printf("Hello, World!\n");
-    printf("Hello, Worlde!\n");
-    printf("Hello, Worlde!\n");
-    printf("sabash bangladesh!\n");
+for(int i = 0; i < 10; i++) {
+    if(i % 2 == 0) {
+        printf("%d is even\n", i);
+    } else {
+        printf("%d is odd\n", i);
+    }
     return 0;
 }
