@@ -5,6 +5,8 @@ for(int i = 0; i < 10; i++) {
         printf("%d is even\n", i);
     } else {
         printf("%d is oddssssssssssss\n", i);
+        printf("%d is oddssssssssssss\n", i);
+        printf("%d is oddsssssssssswwwwssss\n", i);
     }
 }
     return 0;
