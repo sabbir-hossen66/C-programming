@@ -7,6 +7,8 @@ for(int i = 0; i < 10; i++) {
         printf("%d is oddssssssssssss\n", i);
         printf("%d is oddssssssssssss\n", i);
         printf("%d is oddsssssssssswwwwssss\n", i);
+        printf("%d is oddsssssssssswwwwssss\n", i);
+        printf("%d is bejor\n", i);
     }
 }
     return 0;
