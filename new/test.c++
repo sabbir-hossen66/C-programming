@@ -9,6 +9,8 @@ for(int i = 0; i < 10; i++) {
         printf("%d is oddsssssssssswwwwssss\n", i);
         printf("%d is oddsssssssssswwwwssss\n", i);
         printf("%d is bejor\n", i);
+        printf("%d is bejor\n", i);
+        printf("%d is odd number\n", i);
     }
 }
     return 0;
