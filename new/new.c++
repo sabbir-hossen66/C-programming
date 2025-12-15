@@ -7,5 +7,7 @@ int main(){
     printf("new task work");
     printf("new task work");
     printf("new task again");
+    printf("new task again");
+    printf("new task again");
     return 0;
 }
